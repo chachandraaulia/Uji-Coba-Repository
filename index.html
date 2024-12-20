@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uji Coba Membuat Website Untuk Pertama Kalinya (yang berhasil)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        softPink: '#FCE4EC',
+                        rosePink: '#F8BBD0',
+                        deepPink: '#F48FB1'
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-softPink text-gray-800 font-sans">
+    <header class="bg-rosePink text-white text-center py-6 shadow-lg">
+        <h1 class="text-4xl font-extrabold">Selamat Datang 🌸</h1>
+        <p class="text-lg">Website Pertama Chachandraaulia Menggunakan Visual Studio Code</p>
+    </header>
+    <main class="max-w-3xl mx-auto mt-10 p-8 bg-softPink rounded-lg">
+        <h2 class="text-3xl font-bold text-deepPink         git clone https://github.com/username/website-feminim.gitmb-4">Yeay, Alhamdulillah ya Allah Berhasil!</h2>
+        <p class="text-gray-700 mb-6 leading-relaxed">
+            Website ini dibuat oleh Chachandraaulia, Untuk Mencoba Mengaplikasikan Ilmu dan Pemahaman Yang Telah Dipelajari
+        </p>
+        <button class="bg-deepPink hover:bg-rosePink text-white font-bold py-3 px-6 rounded-full transition-transform transform hover:scale-110" onclick="showMessage()">
+            Klik Aku
+        </button>
+    </main>
+    <footer class="bg-deepPink text-white text-center py-4 mt-10">
+        <p class="text-sm">&copy; Chachandraaulia.</p>
+    </footer>
+    <script>
+        function showMessage() {
+            alert("Terima kasih telah mengunjungi website uji coba ini! 🌸");
+        }
+    </script>
+</body>
+</html>
